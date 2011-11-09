@@ -55,12 +55,14 @@
             <h2>Conventions for a best use</h2>
             <hr />
             <h3>File structure and names</h3>
+            <hr />
             <h4>Html files</h4>
             <p>All HTML files go in the root directory and each word of the file is separated for a underscore '_' example: page_one.html.</p>
             <h4>Assets</h4>
             <p>All assets go in a directory called static/media/assets in the root directory.</p>
             <h4>Stylesheets</h4>
             <p>All stylesheets files go in stylesheets directory into assets directory.</p>
+            <p>bootstrap.css is a compiled version of bootstrap.less.</p>
             <h4>Javascripts</h4>
             <p>Exist various type of js files:</p>
             <ul>
@@ -72,6 +74,10 @@
             <h4>Images</h4>
             <p>The images directory go in to assets directory. Inside of images directory go various directorys of images for plugins/sections/groups of images.</p>
             <p>Images names: htmlfilename_group_size_name.png the htmlfilename, group or size are optional and go separated with a underscore '_'.</p>
+            <h4>Less styles</h4>
+            <p>Inside of src directory go all styles source with <a href="http://lesscss.org/">less</a> format, in the less directory go all the sources and inside of the libs directory go de less.js for load the less styles on the fly (Read the lesscss documentation for more info.</p>
+            <h4>Json and XML test data</h4> 
+            <p>Inside of ws directory in src directory go all the test data in formta js or xml for test webservice</p>
     
             <h5>Example</h5>
             <pre class="prettyprint">
@@ -109,6 +115,11 @@
               page_one.html
               page_two.html
             </pre>
+
+            <hr />         
+            <h3>Less and CSS style names</h3>
+            <hr />         
+
           </div>
 
         </div>
