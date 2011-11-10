@@ -2,19 +2,10 @@
 
 This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contain a group of Javscript plugins and CSS/LESS styles for a rapid start.
 
-## Why i did it? ##
-
-I need a base structure for all my works. This base must be an easy and flexible for any type of web project.
-
-## How i used this? ##
+### How i used this? ###
 
 Just clone the repo and start add, edit and delete as necessary. Se conventions for use, bootstrap and jquery plugins for more instructions.
 
-## Where can get this? ##
-
-You can get a copy here. Remember fork it!
-
----------------------------------------
 
 ## File structure and names ##
 
