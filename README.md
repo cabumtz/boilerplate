@@ -4,7 +4,7 @@ This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and ord
 
 # How i use this? #
 
-Just clone the repo and start add, edit and delete as necessary. See conventions for use, bootstrap and jquery plugins for more instructions. And for best practice follow de next conventions.
+Just clone the repo and start add, edit and delete as necessary. For a best practices follow the next conventions.
 
 ## File structure and names ##
 
