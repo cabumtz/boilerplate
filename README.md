@@ -1,10 +1,15 @@
 # What is this? #
 
-This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contains a group of Javscript plugins and CSS/LESS styles for a rapid start.
+This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contains a group of Javscript plugins and CSS/LESS styles for a rapid start of a web develpment.
+
+It uses the tools and the file structure i've used for my projects and I think is comfortable and optimal to work with multiple platforms (Web2py, Flask, Django, CodeIgniter, etc).
+
+This is my attempt to solve problems that occur with poor communication between designer and programmer for a lack of guidelines.
+
 
 # How i use this? #
 
-Just clone the repo and start add, edit and delete as necessary. For a best practices follow the next conventions.
+You must clone the repo and start add, edit and delete as necessary. For a best practices follow the next conventions.
 
 ## File structure and names ##
 
