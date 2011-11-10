@@ -1,10 +1,10 @@
 # What is this? #
 
-This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contain a group of Javscript plugins and CSS/LESS styles for a rapid start.
+This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contains a group of Javscript plugins and CSS/LESS styles for a rapid start.
 
 # How i use this? #
 
-Just clone the repo and start add, edit and delete as necessary. Se conventions for use, bootstrap and jquery plugins for more instructions. And for best practice follow de next conventions.
+Just clone the repo and start add, edit and delete as necessary. See conventions for use, bootstrap and jquery plugins for more instructions. And for best practice follow de next conventions.
 
 ## File structure and names ##
 
@@ -25,9 +25,9 @@ bootstrap.css is a compiled version of bootstrap.less.
 
 Exist various type of js files:
 
-- *libs directory*: All libs like jquery, jquery-ui, plugins go here.
-- *site directory*: Scripts specific for a page go here.
-- *base.js*: All general functions and plugin calls go inside this file.
+- **libs directory**: All libs like jquery, jquery-ui, plugins go here.
+- **site directory**: Scripts specific for a page go here.
+- **base.js**: All general functions and plugin calls go inside this file.
 
 libs and site directories and the base.js go inside of assets directory.
 
