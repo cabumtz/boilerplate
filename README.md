@@ -1,7 +1,5 @@
 # What is this? #
 
-## What is this? ##
-
 This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contain a group of Javscript plugins and CSS/LESS styles for a rapid start.
 
 # How i use this? #
