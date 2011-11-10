@@ -25,9 +25,9 @@ bootstrap.css is a compiled version of bootstrap.less.
 
 Exist various type of js files:
 
-    libs directory: All libs like jquery, jquery-ui, plugins go here.
-    site directory: Scripts specific for a page go here.
-    base.js: All general functions and plugin calls go inside this file.
+- *libs directory*: All libs like jquery, jquery-ui, plugins go here.
+- *site directory*: Scripts specific for a page go here.
+- *base.js*: All general functions and plugin calls go inside this file.
 
 libs and site directories and the base.js go inside of assets directory.
 
