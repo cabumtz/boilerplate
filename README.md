@@ -10,7 +10,7 @@ Just clone the repo and start add, edit and delete as necessary. Se conventions 
 
 ### Html files ##
 
-All HTML files go in the root directory and each word of the file is separated for a underscore '_' example: page_one.html.
+All HTML files go in the root directory and each word of the file is separated for a underscore '\_' example: page\_one.html.
 Assets
 
 All assets go in a directory called static/media/assets in the root directory.
@@ -35,7 +35,7 @@ libs and site directories and the base.js go inside of assets directory.
 
 The images directory go in to assets directory. Inside of images directory go various directorys of images for plugins/sections/groups of images.
 
-Images names: htmlfilename_group_size_name.png the htmlfilename, group or size are optional and go separated with a underscore '_'.
+Images names: htmlfilename\_group\_size\_name.png the htmlfilename, group or size are optional and go separated with a underscore '\_'.
 
 ### Less styles ###
 
