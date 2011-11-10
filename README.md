@@ -1,15 +1,12 @@
-# Bolierplate #
+# What is this? #
 
-## FAQ ##
-
-### What is this? ###
+## What is this? ##
 
 This Boilerplate is a HTML5/CSS/JS Skeleton for start a web site quickly and orderly. Contain a group of Javscript plugins and CSS/LESS styles for a rapid start.
 
-### How i use this? ###
+# How i use this? #
 
-Just clone the repo and start add, edit and delete as necessary. Se conventions for use, bootstrap and jquery plugins for more instructions.
-
+Just clone the repo and start add, edit and delete as necessary. Se conventions for use, bootstrap and jquery plugins for more instructions. And for best practice follow de next conventions.
 
 ## File structure and names ##
 
