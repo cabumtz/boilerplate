@@ -45,7 +45,7 @@ Inside of src directory go all styles source with less format, in the less direc
 
 Inside of ws directory in src directory go all the test data in formta js or xml for test webservice
 
-### Example ###
+#### Example ####
 ```
               static/
                 images/
@@ -82,4 +82,12 @@ Inside of ws directory in src directory go all the test data in formta js or xml
               page_two.html
             
 ```
-## Less and CSS style names #
+## HTML basic structure ##
+## Less and CSS style names ##
+## Twitter Bootstrap ##
+## Javascript, Jquery and plugins ##
+## My base.js ##
+## How i should make my psd/gimp template? ##
+
+
+
