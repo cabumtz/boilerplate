@@ -43,9 +43,19 @@ index.html page_one.html page_two.html
 
 ### Stylesheets ###
 
-All stylesheets files go in stylesheets directory into assets directory.
+All stylesheets files go inside ot the stylesheets directory into assets directory.
 
-bootstrap.css is a compiled version of bootstrap.less.
+The **bootstrap.css** file is a compiled version of **bootstrap.less** and it contains all css styles and is required because in this file go all css style of the project.
+
+The convention for the names of the stylesheet files for plugins and 3rd party addons is this:
+
+framework.plugin_name.css
+
+#### Example:
+
+```
+jquery.myplugin.css jquery.other_plugin.css
+```
 
 ### Javascripts ###
 
