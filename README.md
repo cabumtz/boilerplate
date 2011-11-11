@@ -258,8 +258,11 @@ Inside **.container** could be a side bar, footer and/or content div.
   </div>
 </div>
 ```
-
 Or you could use the grid system inside the div container. (See the Twitter Bootstrap section)
+
+It is important to try to keep the same names for the major classes because to facilitate the creation of views for frameworks which are inherited views. 
+
+Normally be charged subviews into the div container, inheriting a base view with html structure shown above.
 
 ## Less and CSS style names ##
 ## Twitter Bootstrap ##
