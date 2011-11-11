@@ -13,6 +13,23 @@ You must clone the repo and start add, edit and delete as necessary. For a best 
 
 ## File structure and names ##
 
+### Directories ###
+
+Always exist a directory called static, media or assets in the project directory together with all the html files. Inside of that directory must be four directories stylesheets, javascripts, src and images.
+
+```
+myproject/
+  static/
+    javascripts/
+    stylesheets/
+    src/
+    images/
+  index.html
+  page_one.html
+  page_two.html
+```
+
+
 ### Html files ##
 
 All HTML files go in the root directory and each word of the file is separated for a underscore '\_' example: page\_one.html.
