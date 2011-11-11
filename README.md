@@ -39,7 +39,7 @@ All HTML files go in the project directory and each word of the file is separate
 #### Example: #### 
 
 ```
-page\_one.html
+index.html page_one.html page_two.html
 ```
 
 ### Stylesheets ###
