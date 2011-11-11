@@ -38,7 +38,11 @@ All HTML files go in the project directory and each word of the file is separate
 #### Example:
 
 ```
-index.html page_one.html page_two.html
+myproject/
+  static/
+  index.html
+  page_one.html
+  page_two.html
 ```
 
 ### Stylesheets ###
@@ -49,29 +53,62 @@ The **bootstrap.css** file is a compiled version of **bootstrap.less** and it co
 
 The convention for the names of the stylesheet files for plugins and 3rd party addons is this:
 
-framework.plugin_name.css
+framework.plugin_name.css or name_script.css
 
 #### Example:
 
 ```
-jquery.myplugin.css jquery.other_plugin.css
+myproject/
+  static/
+    javascripts/
+    stylesheets/
+      bootstrap.css
+      jquery.my_plugin.css
+      some_script.css
+    src/
+    images/
+  index.html
+  page_one.html
+  page_two.html
 ```
 
 ### Javascripts ###
 
-Exist various type of js files:
+Exist various type of js files all this go inside of the javascripts directory into assets and sorted into subdirectories:
 
-- **libs directory**: All libs like jquery, jquery-ui, plugins go here.
-- **site directory**: Scripts specific for a page go here.
-- **base.js**: All general functions and plugin calls go inside this file.
+- **libs ands plugins**: All libs and plugins like jquery, jquery-ui, jquery.somenthingcoolfeature go inside of the **libs** directory.
+- **site scripts**: All scripts specific for a page go here in the **site** directory and the name is the same of the html file.
+- **base.js**: All general functions and plugin calls go inside this file inside of the javascripts directory.
 
-libs and site directories and the base.js go inside of assets directory.
+#### Example:
+
+```
+myproject/
+  static/
+    javascripts/
+      libs/
+        bootstrap-modal.js
+        jquery-1.7.min.js
+        jquery.form.js
+        html5.js
+      site/
+        page_two.js
+      base.js
+    stylesheets
+    src/
+    images/
+  index.html
+  page_one.html
+  page_two.html
+```
 
 ### Images ###
 
-The images directory go in to assets directory. Inside of images directory go various directorys of images for plugins/sections/groups of images.
+The images directory go in to assets directory. In to this directory being several directories of images for plugins,sections orgroups of images.
 
 Images names: htmlfilename\_group\_size\_name.png the htmlfilename, group or size are optional and go separated with a underscore '\_'.
+
+
 
 ### Less styles ###
 
