@@ -18,6 +18,8 @@ You must clone the repo and start add, edit and delete as necessary. For a best 
 Always exist a directory called static, media or assets in the project directory together with all the html files. Inside of that directory must be four directories stylesheets, javascripts, src and images.
 
 ####Example:####
+
+
 ```
 myproject/
   static/
@@ -30,7 +32,7 @@ myproject/
   page_two.html
 ```
 
-### Html files ##
+### Html files ###
 
 All HTML files go in the project directory and each word of the file is separated for an underscore '\_'. 
 
