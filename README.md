@@ -101,6 +101,9 @@ myproject/
   page_one.html
   page_two.html
 ```
+Eduardo
+sí fue para ella
+ 
 
 ### Images ###
 
@@ -188,6 +191,76 @@ There files are for test APIS in a local way with a test data.
             
 ```
 ## HTML basic structure ##
+
+The html file must be a html5 file. The suggest structure is this.
+
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Boilerplate: Start here!</title>
+    <meta name="description" content="Boilerplate">
+    <meta name="author" content="Alvaro Lizama Molina">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML elements -->
+    <!--[if lt IE 9]>
+    <script src="static/javascript/libs/html5.js"></script>
+    <![endif]-->
+
+    <!-- CSS required styles -->
+    <link rel="stylesheet" type="text/css" href="static/stylesheets/bootstrap.css">
+
+    <!-- CSS optional styles -->
+
+    <!-- LESS -->
+    <!-- <link rel="stylesheet/less" type="text/css" href="static/src/less/bootstrap.less"/> -->
+    <!-- <script src="static/src/libs/less-1.1.3.min.js" type="text/javascript"></script> -->
+  </head>
+
+  <body>
+
+    <div class="container">
+
+      <div class="content">
+
+      </div> <!-- /content -->
+
+      <footer>
+      <p>&copy; Company 2011</p>
+      </footer>
+
+    </div> <!-- /container -->
+
+    <!-- Required javascript libs -->
+
+    <!-- Optional javascript libs -->
+
+    <!-- Base javascripts for general functions and initialze plugins -->
+
+  </body>
+</html>
+```
+Is basic structure and the div with the class container could be fixed with a class **container** or fluid with the class **container-fluid**.
+
+Inside **.container** could be a side bar, footer and/or content div.
+
+```
+<div class="container-fluid">
+  <div class="sidebar">
+    ...
+  </div>
+  <div class="content">
+    ...
+  </div>
+  <div class="footer">
+    ...
+  </div>
+</div>
+```
+
+Or you could use the grid system inside the div container. (See the Twitter Bootstrap section)
+
 ## Less and CSS style names ##
 ## Twitter Bootstrap ##
 ## Javascript, Jquery and plugins ##
