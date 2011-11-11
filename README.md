@@ -108,17 +108,49 @@ The images directory go in to assets directory. In to this directory being sever
 
 Images names: htmlfilename\_group\_size\_name.png the htmlfilename, group or size are optional and go separated with a underscore '\_'.
 
+#### Example:
 
+```
+myproject/
+  static/
+    javascripts/
+    stylesheets
+    src/
+    images/ 
+      myplugin/
+        bg_black.png
+        bg_white.png
+      header_500x200.png
+      header_500x180.png
+      btn_save.png
+      btn_delete.png
+      page_one_header_500x180_red.png
+  index.html
+  page_one.html
+  page_two.html
+```
 
 ### Less styles ###
 
-Inside of src directory go all styles source with less format, in the less directory go all the sources and inside of the libs directory go de less.js for load the less styles on the fly (Read the lesscss documentation for more info.
+Into assets directory exist a directory called src, this contains some subdirectories like the src file. Into this directory go all less stylesheets files.
+
+This less files are part of the twitter bootstrap structure in **bootstrap.less** we can indicate which files load to generate the **bootstrap.css**.
+
+Into the **custom.less** we write the code for all css styles for our site in a less format.
+
 
 ### Json and XML test data ###
 
-Inside of ws directory in src directory go all the test data in formta js or xml for test webservice
+Inside of ws directory into src directory go all the test data in formta js or xml for test webservice. File like:
 
-#### Example ####
+```
+data_source.json other_data_source.xml
+```
+
+There files are for test APIS in a local way with a test data.
+
+
+#### Example of a complete file system structure####
 ```
               static/
                 images/
